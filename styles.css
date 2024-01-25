@@ -1,46 +1,52 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
-    background-color:hsl(0, 0%, 100%);
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: column;
-    align-items: center;
+body {
+    font-family: 'Times New Roman', Times, serif; /* Sets the font style for the body */
+    background-color: hsl(0, 0%, 100%); /* Sets the background color to white */
+    margin: 0; /* Removes default margin */
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Stacks child elements vertically */
+    align-items: center; /* Centers child elements horizontally */
 }
-.weatherForm{
-    margin: 20px;
+
+/* Styles for the Weather Form */
+.weatherForm {
+    margin: 20px; /* Adds margin around the form */
 }
-.cityInput{
-    padding: 10px;
-    font-size: 2rem;
-    font-weight: bold;
-    border: 2px solid hsl(0, 93%, 22%);
-    border-radius: 10px;
-    margin: 10px;
-    width: 300px;
+
+/* Styles for the City Input Field */
+.cityInput {
+    padding: 10px; /* Adds padding inside the input field */
+    font-size: 2rem; /* Sets font size to 2rem */
+    font-weight: bold; /* Makes the font bold */
+    border: 2px solid hsl(0, 93%, 22%); /* Adds a solid border */
+    border-radius: 10px; /* Rounds the corners of the border */
+    margin: 10px; /* Adds margin around the input field */
+    width: 300px; /* Sets the width of the input field */
 }
-button[type="submit"]{
-    padding: 10px 20px;
-    font-weight: bold;
-    font-size: 2rem;
-    background-color: hsl(245, 22%, 45%);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+
+/* Styles for the Submit Button */
+button[type="submit"] {
+    padding: 10px 20px; /* Adds padding inside the button */
+    font-weight: bold; /* Makes the button text bold */
+    font-size: 2rem; /* Sets the font size of the button */
+    background-color: hsl(245, 22%, 45%); /* Sets the background color */
+    color: white; /* Sets the text color to white */
+    border: none; /* Removes the border */
+    border-radius: 5px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering */
 }
-button[type="submit"]:hover{
-    background-color: hsl(180, 4%, 11%);
+
+/* Hover effect for the Submit Button */
+button[type="submit"]:hover {
+    background-color: hsl(180, 4%, 11%); /* Darkens the button on hover */
 }
-.card{
-    background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
-    padding: 50px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+
+/* Styles for the Card Container */
+.card {
+    background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%)); /* Sets a linear gradient background */
+    padding: 50px; /* Adds padding inside the card */
+    border-radius: 10px; /* Rounds the corners of the card */
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5); /* Adds a shadow effect */
     min-width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 h1{
     margin-top: 0;
